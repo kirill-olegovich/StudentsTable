@@ -1,15 +1,14 @@
 using Avalonia.Controls;
-using Avalonia.Controls.Templates;
-using Avalonia.Data;
-using ProgressTable.Models;
+//using Student.ViewModels;
 
-namespace ProgressTable.Views
+namespace Student.Views
 {
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            //DataContext = new MainWindowViewModel();
         }
     }
 }

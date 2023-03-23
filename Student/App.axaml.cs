@@ -1,10 +1,10 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using ProgressTable.ViewModels;
-using ProgressTable.Views;
+using Student.ViewModels;
+using Student.Views;
 
-namespace ProgressTable
+namespace Student
 {
     public partial class App : Application
     {
